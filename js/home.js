@@ -1,7 +1,6 @@
-
 /* home.js - نسخة نهائية كاملة
    يدعم أسماء ملفات تحتوي على شرطات أو مسافات أو رموز عربية وإنجليزية
-   يقرأ من ../assets/images.json
+   يقرأ من ../assets/home/images.json
    عرض شبكي 4x / 2x، بحث جزئي، lightbox مع زر تحميل، ودعم كامل لجميع الأسماء
 */
 
@@ -33,7 +32,7 @@ if (sidebarClose) {
   });
 }
 
-// جلب JSON من assets/images.json
+// جلب JSON من assetsimages.json
 async function fetchImagesJson() {
   const url = '../assets/images.json';
   try {
